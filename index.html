@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" id="home">
 
 <head>
     <!-- Required meta tags -->
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
     <title>Annaufal Page</title>
 </head>
 
@@ -24,15 +25,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">About</a>
-          <a class="nav-link" href="#">Contact</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Photo</a>
+          <a class="nav-link active ml-3" href="#home">HOME</a>
+          <a class="nav-link ml-3" href="#about">ABOUT</a>
+          <a class="nav-link ml-3" href="#skill">SKILL</a>
+          <a class="nav-link ml-3" href="#carouselExampleFade">PHOTO</a>
+          <a class="nav-link ml-3" href="#chat">CONTACT</a>
         </div>
       </div>
     </div>
     </nav>
-
 
 
       <div class="jumbotron jumbotron-fluid">
@@ -46,24 +47,59 @@
 
     <section id="about" class="about">
       <div class="container">
-        <div class="row mb-4">
+        <div class="row mb-3">
           <div class="col text-center">
             <h2>About Me</h2>
           </div>
         </div>
           <div class="row justify-content-center">
             <div class="col-md-5 text-center">
-              <p>Hallo, nama saya Annaufal Arifa lahir di jakarta, 04 April 2004, Umur saya 16 tahun. Saya tinngal di daerah Depok, Jawa barat, Indonesia. Saya adalah seorang murid di sebuah  sekolah SMK, sekarang saya kelas 11 mengambil jurusan RPL.</p>
+              <p class="text-justify">Hallo, nama saya Annaufal Arifa lahir di jakarta, 04 April 2004, Umur saya 16 tahun. Saya tinngal di daerah Depok, Jawa barat, Indonesia. Saya adalah seorang murid di sebuah  sekolah SMK, sekarang saya kelas 11 mengambil jurusan RPL.</p>
             </div>
             <div class="col-md-5 text-center">
-              <p>Hobi saya adalah mendengengarkan musik saya juga suka mengenai dunia perotomotifan terlebih di kendaraan roda 4, saya sering menonton video tentang hal tersebut. Saya juga memiliki ketertarikan terhadap bidang IT.</p>
+              <p class="text-justify">Hobi saya adalah mendengengarkan musik saya juga suka mengenai dunia perotomotifan terlebih di kendaraan roda 4, saya sering menonton video tentang hal tersebut. Saya juga memiliki ketertarikan terhadap bidang IT.</p>
             </div>
         </div>
       </div>
     </section>
 
 
-    <section id="carouselExampleFade" class="carousel slide carousel-fade pb-5 bg-light" data-ride="carousel">
+    <section class="skill bg-light pb-5" id="skill">
+      <h2 class=" text-center our p-4" id="our">Skill</h2>
+      <div class="container mt-4">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="fas fa-code h1"></i>
+            <h3>HTML</h3>
+          </div>
+          <div class="col-md-4">        
+            <i class="fab fa-css3 h1"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="col-md-4">
+            <i class="fab fa-js h1"></i>
+            <h3>Javascript</h3>
+          </div>
+        </div>
+        <div class="row text-center mt-5">
+          <div class="col-md-4">
+            <i class="fas fa-database h1"></i>
+            <h3>MySQL</h3>
+          </div>
+          <div class="col-md-4">        
+            <i class="fab fa-php h1"></i>
+            <h3>PHP</h3>
+          </div>
+          <div class="col-md-4">
+            <i class="fab fa-bootstrap h1"></i>
+            <h3>Bootstrap</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="carouselExampleFade" class="carousel slide carousel-fade p-4" data-ride="carousel">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -84,14 +120,13 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div>
-    </div>
-    </div>
+        </div>
+      </div>
     </div>
   </section>
 
 
-        <section id="chat" class="chat mb-3">
+        <section id="chat" class="chat bg-light">
           <div class="container">
             <div class="row pt-4 mb-4">
               <div class="col text-center">  
@@ -99,21 +134,21 @@
               </div>
             </div>
 
-            <div class="row justify-content-center">
-              <div class="col-lg-4">
-                <div class="card text-white bg-secondary mb-3 text-center">
-                    <div class="card-body">
-                      <h5 class="card-title">Contact Me</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="row justify-content-center">
+                <div class="col-lg-4">
+                  <div class="card text-white bg-secondary mb-3 text-center">
+                      <div class="card-body">
+                        <h5 class="card-title">Contact Me</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      </div>
                     </div>
-                  </div>
-                  <ul class="list-group">
-                    <li class="list-group-item"><h1>Location</h1></li>
-                    <li class="list-group-item">House</li>
-                    <li class="list-group-item">Permata cimanggis, Cilangkap, Tapos, Depok</li>
-                    <li class="list-group-item">West Java, Indonesia</li>
-                  </ul>
-              </div>
+                    <ul class="list-group">
+                      <li class="list-group-item"><h1>Location</h1></li>
+                      <li class="list-group-item">House</li>
+                      <li class="list-group-item">Permata cimanggis, Cilangkap, Tapos, Depok</li>
+                      <li class="list-group-item">West Java, Indonesia</li>
+                    </ul>
+                </div>
 
               <div class="col-lg-6">
                 <form>
@@ -143,15 +178,15 @@
           <br>
         </section>
 
-        <section id="contact" class="contact">
+        <section id="contact" class="contact bg-light mb-3">
           <div class="container">
             <div class="row">
               <div class="col">
                     <ul>
-                      <li><a href="https://www.facebook.com/annaufalarifa.arifa"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="https://twitter.com/AnnaufalA"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="https://www.instagram.com/annaufalarifa/"><i class="fa fa-instagram"></i></a></li>
-                      <li><a href="https://wa.me/qr/FIOSIGO3HDKWD1"><i class="fa fa-whatsapp"></i></a></li>
+                      <li><a href="https://www.facebook.com/annaufalarifa.arifa"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="https://twitter.com/AnnaufalA"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="https://www.instagram.com/annaufalarifa/"><i class="fab fa-instagram"></i></a></li>
+                      <li><a href="https://wa.me/qr/FIOSIGO3HDKWD1"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
               </div>
             </div>
@@ -162,9 +197,9 @@
 
 <footer class="bg-dark text-white">
   <div class="container">
-    <div class="row pt-3 mt-3">
+    <div class="row pt-3">
       <div class="col text-center">
-        <p>Non Copyright.</p>
+        <p>Annaufal | 2020</p>
       </div>
     </div>
   </div>
