@@ -3,19 +3,55 @@ html
     scroll-behavior: smooth;
 }
 
-.about, .skill, .carousel, .chat
+.carousel
 {
     position: relative;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-
+    width: 100%;
+    height: 650px;
+    margin-top: -20px;
 }
 .about
 {
-    min-height: 230px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 310px;
+    margin-top: -60px;
 }
+.skill
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 430px;
+    margin-top: -40px;
+}
+.chat
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    margin-top: -10px;
+    margin-bottom: -34px;
+}    
 .border {
             border: solid black 15px;
         }
