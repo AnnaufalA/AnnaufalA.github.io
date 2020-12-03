@@ -12,8 +12,8 @@ html
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 650px;
-    margin-top: -20px;
+    height: 620px;
+    margin-top: -10px;
 }
 .about
 {
@@ -36,8 +36,8 @@ html
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-    height: 430px;
-    margin-top: -40px;
+    height: 400px;
+    margin-top: -30px;
 }
 .chat
 {
@@ -124,3 +124,15 @@ html
         }
 
 
+.skill .container .row .col
+{
+    margin-top:-10px;
+}
+.carousel .container .row .col
+{
+    margin-top: 15px;
+}
+.chat .container .row .col
+{
+    margin-top: -10px;
+}
