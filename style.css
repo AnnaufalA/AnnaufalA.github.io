@@ -1,133 +1,74 @@
-html
+.jumbotron
 {
-    scroll-behavior: smooth;
+    padding-top: 6rem;
+    background-color: #e2edff;
 }
 
-.carousel
+#projects
 {
+    background-color: #e2edff;
+}
+
+section
+{
+    padding-top: 5rem;
+}
+
+.contact ul {
     position: relative;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 620px;
-    margin-top: -10px;
 }
-.about
-{
+
+.contact ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.contact ul li .fab {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.contact ul li .fab:hover {
+    color: #ffffff;
+}
+
+.contact ul li a {
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 310px;
-    margin-top: -60px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0, 0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
-.skill
-{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 400px;
-    margin-top: -30px;
+
+.contact ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
-.chat
-{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    height: 600px;
-    margin-top: -10px;
-    margin-bottom: -34px;
-}    
-.border {
-            border: solid black 15px;
-        }
-        h1 {
-            text-align: center;
-        }
 
-        .contact ul {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-
-        .contact ul li {
-            list-style: none;
-            margin: 0 10px;
-        }
-
-        .contact ul li .fab {
-            color: #000000;
-            font-size: 25px;
-            line-height: 50px;
-            transition: .5s;
-        }
-
-        .contact ul li .fab:hover {
-            color: #ffffff;
-        }
-
-        .contact ul li a {
-            position: relative;
-            display: block;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: #ffffff;
-            text-align: center;
-            transition: 0.5s;
-            transform: translate(0, 0px);
-            box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-        }
-
-        .contact ul li a:hover {
-            transform: rotate(0deg) skew(0deg) translate(0, -10px);
-        }
-
-        .contact ul li:nth-child(1) a:hover {
-            background-color: #3b5999;
-        }
-
-        .contact ul li:nth-child(2) a:hover {
-            background-color: #55acee;
-        }
-
-        .contact ul li:nth-child(3) a:hover {
-            background-color: #e4405f;
-        }
-
-        .contact ul li:nth-child(4) a:hover {
-            background-color: #00FF00;
-        }
-
-
-.skill .container .row .col
-{
-    margin-top:-10px;
+.contact ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
 }
-.carousel .container .row .col
-{
-    margin-top: 15px;
+
+.contact ul li:nth-child(2) a:hover {
+    background-color: #55acee;
 }
-.chat .container .row .col
-{
-    margin-top: -10px;
+
+.contact ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+
+.contact ul li:nth-child(4) a:hover {
+    background-color: #00FF00;
 }

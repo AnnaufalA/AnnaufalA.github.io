@@ -1,223 +1,203 @@
 <!doctype html>
-<html lang="en" id="home">
-
-<head>
+<html lang="en">
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
-    <title>Annaufal Page</title>
-</head>
 
-<body class="mt-5">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-      <i class="fas fa-charging-station h3 mt-1 mr-1 text-success"></i>
-      <a class="navbar-brand ml-2" href="#"><strong>WebByAN</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-link active ml-3" href="#home">HOME</a>
-          <a class="nav-link ml-3 text-primary" href="#about">ABOUT</a>
-          <a class="nav-link ml-3 text-success" href="#skill">SKILL</a>
-          <a class="nav-link ml-3 text-warning" href="#carouselExampleFade">PHOTO</a>
-          <a class="nav-link ml-3 text-danger" href="#chat">CONTACT</a>
-        </div>
-      </div>
-    </div>
-    </nav>
-
-
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container text-center">
-          <img src="img/profile2.JPG" width="20%" class="rounded-circle img-thumbnail">
-          <h1 class="display-4">Annaufal Arifa</h1>
-          <p class="lead">Student | SMK Plus Pelita Nusantara</p>
-        </div>
-      </div>
-
-
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row mb-3">
-          <div class="col text-center">
-            <h2 class="text-primary">About Me</h2>
+    <title>Portfolio Annaufal</title>
+  </head>
+  <body id="home">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+        <div class="container">
+          <i class="fas fa-charging-station h3 mt-1 text-info"></i>
+          <a class="navbar-brand" href="#"><strong>WebByAN</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Progress</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-          <div class="row justify-content-center">
-            <div class="col-md-5 text-center">
-              <p class="text-justify">Hallo, nama saya Annaufal Arifa lahir di jakarta, 04 April 2004, Umur saya 16 tahun. Saya tinngal di daerah Depok, Jawa barat, Indonesia. Saya adalah seorang murid di sebuah  sekolah SMK, sekarang saya kelas 11 mengambil jurusan RPL.</p>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Jumbotron -->
+      <section class="jumbotron text-center">
+        <img src="img/gambar.JPG" alt="Annaufal Arifa" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Annaufal Arifa</h1>
+        <p class="lead">Student | SMK Plus Pelita Nusantara</p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="10" d="M0,160L18.5,144C36.9,128,74,96,111,96C147.7,96,185,128,222,170.7C258.5,213,295,267,332,266.7C369.2,267,406,213,443,202.7C480,192,517,224,554,218.7C590.8,213,628,171,665,176C701.5,181,738,235,775,229.3C812.3,224,849,160,886,160C923.1,160,960,224,997,245.3C1033.8,267,1071,245,1108,245.3C1144.6,245,1182,267,1218,245.3C1255.4,224,1292,160,1329,128C1366.2,96,1403,96,1422,96L1440,96L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"></path></svg>
+      </section>
+      <!-- End Jumbotron -->
+
+      <!-- About -->
+      <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>About</h2>
+                </div>
             </div>
-            <div class="col-md-5 text-center">
-              <p class="text-justify">Hobi saya adalah mendengengarkan musik saya juga suka mengenai dunia perotomotifan terlebih di kendaraan roda 4, saya sering menonton video tentang hal tersebut. Saya juga memiliki ketertarikan terhadap bidang IT.</p>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-5">
+                   <p>Hallo, nama saya Annaufal Arifa lahir di jakarta, 04 April 2004, Umur saya 16 tahun. Saya tinngal di daerah Depok, Jawa barat, Indonesia. Saya adalah seorang murid di sebuah sekolah SMK, sekarang saya kelas 11 mengambil jurusan RPL.</p> 
+                </div>
+                <div class="col-md-5">
+                    <p>Hobi saya adalah mendengengarkan musik saya juga suka mengenai dunia perotomotifan terlebih di kendaraan roda 4, saya sering menonton video tentang hal tersebut. Saya juga memiliki ketertarikan terhadap bidang IT.</p>
+                </div>
             </div>
         </div>
-      </div>
-    </section>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="10" d="M0,160L26.7,165.3C53.3,171,107,181,160,165.3C213.3,149,267,107,320,101.3C373.3,96,427,128,480,138.7C533.3,149,587,139,640,144C693.3,149,747,171,800,197.3C853.3,224,907,256,960,277.3C1013.3,299,1067,309,1120,293.3C1173.3,277,1227,235,1280,186.7C1333.3,139,1387,85,1413,58.7L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+      </section>
+      <!-- End About -->
 
-
-    <section class="skill bg-light" id="skill">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-              <h2 class=" text-center our p-4 text-success" id="our">Skill</h2>
-              <div class="container">
-                <div class="row text-center">
-                  <div class="col-md-4">
-                    <i class="fas fa-code h1"></i>
-                    <h3>HTML</h3>
-                  </div>
-                  <div class="col-md-4">        
-                    <i class="fab fa-css3 h1"></i>
-                    <h3>CSS</h3>
-                  </div>
-                  <div class="col-md-4">
-                    <i class="fab fa-js h1"></i>
-                    <h3>Javascript</h3>
-                  </div>
+      <!-- Projects -->
+      <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>My Progress</h2>
                 </div>
-                <div class="row text-center mt-5">
-                  <div class="col-md-4">
-                    <i class="fas fa-database h1"></i>
-                    <h3>MySQL</h3>
-                  </div>
-                  <div class="col-md-4">        
-                    <i class="fab fa-php h1"></i>
-                    <h3>PHP</h3>
-                  </div>
-                  <div class="col-md-4">
-                    <i class="fab fa-bootstrap h1"></i>
-                    <h3>Bootstrap</h3>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <h2 class="mb-2 text-warning">Photo</h2>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/images2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/images1.JPG" class="d-block w-100" alt="..."> 
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-        <section id="chat" class="chat bg-light">
-          <div class="container">
-            <div class="row">
-              <div class="col text-center">  
-                  <h2 class="text-danger">Contact Me</h2>
-              </div>
             </div>
-
-              <div class="row justify-content-center">
-                <div class="col-lg-4">
-                  <div class="card text-white bg-secondary mb-3 text-center">
-                      <div class="card-body">
-                        <h5 class="card-title">Contact Me</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/1.PNG" class="card-img-top" alt="Projects1">
+                        <div class="card-body">
+                          <p class="card-text">Website Company Profile (HTML, CSS, JS, PHP, MySQL) | Tugas Sekolah</p>
+                        </div>
                       </div>
-                    </div>
-                    <ul class="list-group">
-                      <li class="list-group-item"><h1>Location</h1></li>
-                      <li class="list-group-item">House</li>
-                      <li class="list-group-item">Permata cimanggis, Cilangkap, Tapos, Depok</li>
-                      <li class="list-group-item">West Java, Indonesia</li>
-                    </ul>
                 </div>
-
-              <div class="col-lg-6">
-                <form>
-                    <div class="form-group">
-                      <label for="nama">Name</label>
-                      <input type="text" class="form-control" id="nama" placeholder="Input name">
-                    </div>
-                    <div class="form-group">
-                      <label for="email">Email</label>
-                      <input type="text" class="form-control" id="email" placeholder="Input email">
-                    </div>
-                    <div class="form-group">
-                      <label for="telp">No Phone</label>
-                      <input type="text" class="form-control" id="telp" placeholder="Input number phone">
-                    </div>
-                    <div class="form-group">
-                      <label for="pesan">Message</label>
-                      <textarea name="pesan" id="pesan" class="form-control"></textarea>
-                    </div>
-                    <div class="form-group">
-                      <button type="button" class="btn btn-secondary">Submit!</button>
-                    </div>
-                </form>
-              </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/2.PNG" class="card-img-top" alt="Projects2">
+                        <div class="card-body">
+                          <p class="card-text">Website CRUD (HTML, CSS, JS, PHP, MySQL) | Tugas Sekolah</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/3.PNG" class="card-img-top" alt="Projects3">
+                        <div class="card-body">
+                          <p class="card-text">Belajar PHP dasar (HTML, PHP, MySQL) | Belajar via Youtube</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/4.PNG" class="card-img-top" alt="Projects4">
+                        <div class="card-body">
+                          <p class="card-text">Website Portfolio V.1 (HTML, CSS, Bootstrap) | Belajar via Youtube</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="img/5.PNG" class="card-img-top" alt="Projects5">
+                        <div class="card-body">
+                          <p class="card-text">App Rental Mobil (Stisla template, PHP, Codeigniter) | In progress</p>
+                        </div>
+                      </div>
+                </div>
             </div>
-          </div>
-          <br>
-        </section>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="10" d="M0,96L14.1,133.3C28.2,171,56,245,85,245.3C112.9,245,141,171,169,122.7C197.6,75,226,53,254,64C282.4,75,311,117,339,144C367.1,171,395,181,424,192C451.8,203,480,213,508,186.7C536.5,160,565,96,593,112C621.2,128,649,224,678,256C705.9,288,734,256,762,224C790.6,192,819,160,847,122.7C875.3,85,904,43,932,26.7C960,11,988,21,1016,48C1044.7,75,1073,117,1101,117.3C1129.4,117,1158,75,1186,48C1214.1,21,1242,11,1271,5.3C1298.8,0,1327,0,1355,10.7C1383.5,21,1412,43,1426,53.3L1440,64L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z"></path></svg>
+      </section>
+      <!-- End Projects -->
 
-        <section id="contact" class="contact bg-light mb-3">
+      <!-- Contact -->
+      <section id="contact" class="contact">
           <div class="container">
-            <div class="row">
-              <div class="col">
+              <div class="row text-center mb-3">
+                  <div class="col">
+                      <h2>Contact Here</h2>
+                  </div>
+              </div>
+              <div class="row justify-content-center">
+                  <div class="col-md-6">
                     <ul>
                       <li><a href="https://www.facebook.com/annaufalarifa.arifa"><i class="fab fa-facebook-f"></i></a></li>
                       <li><a href="https://twitter.com/AnnaufalA"><i class="fab fa-twitter"></i></a></li>
                       <li><a href="https://www.instagram.com/annaufalarifa/"><i class="fab fa-instagram"></i></a></li>
                       <li><a href="https://wa.me/qr/FIOSIGO3HDKWD1"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
+                  </div>
               </div>
-            </div>
           </div>
-        </section>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="10" d="M0,160L34.3,138.7C68.6,117,137,75,206,80C274.3,85,343,139,411,165.3C480,192,549,192,617,165.3C685.7,139,754,85,823,90.7C891.4,96,960,160,1029,186.7C1097.1,213,1166,203,1234,197.3C1302.9,192,1371,192,1406,192L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+      </section>
+      <!-- End Contact -->
 
-<br>
-
-<footer class="bg-dark text-white">
-  <div class="container">
-    <div class="row pt-3">
-      <div class="col text-center">
-        <p> 2020 | Annaufal</p>
-      </div>
-    </div>
-  </div>
-</footer>
+      <!-- Footer -->
+      <footer class="bg-primary text-white text-center pb-4">
+          <p>Created With <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="" class="text-white fw-bold">Annaufal</a></p>
+      </footer>
+      <!-- End Footer -->
 
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
